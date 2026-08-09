@@ -77,12 +77,9 @@ a:hover {
    Main Container
 --------------------------------- */
 
-.container {
-  max-width: var(--max);
-  margin: auto;
-  padding: 60px 24px 80px;
+.about-container {
+  padding-top: 30px;
 }
-
 
 /* ------------------------------
    Hero Section
