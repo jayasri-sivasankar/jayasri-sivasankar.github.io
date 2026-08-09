@@ -41,12 +41,7 @@ a:hover {
   margin: auto;
   padding: 18px 24px;
   display: flex;
-  justify-content: flex-end;
-}
-
-.brand {
-  font-weight: bold;
-  color: var(--text);
+  justify-content: flex-start;
 }
 
 .nav-links {
