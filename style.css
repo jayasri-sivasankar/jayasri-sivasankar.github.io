@@ -41,8 +41,7 @@ a:hover {
   margin: auto;
   padding: 18px 24px;
   display: flex;
-  justify-content: space-between;
-  gap: 24px;
+  justify-content: flex-end;
 }
 
 .brand {
