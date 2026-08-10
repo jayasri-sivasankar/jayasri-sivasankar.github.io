@@ -29,17 +29,6 @@ a:hover {
 
 
 /* ------------------------------
-   Site Identity
---------------------------------- */
-
-.brand {
-  font-weight: normal;
-  color: var(--text);
-  font-size: 16px;
-}
-
-
-/* ------------------------------
    Header & Navigation
 --------------------------------- */
 
@@ -55,6 +44,12 @@ a:hover {
   justify-content: space-between;
   align-items: center;
   gap: 24px;
+}
+
+.brand {
+  font-weight: normal;
+  color: var(--text);
+  font-size: 16px;
 }
 
 .nav-links {
@@ -77,9 +72,12 @@ a:hover {
    Main Container
 --------------------------------- */
 
-.about-container {
-  padding-top: 30px;
+.container {
+  max-width: var(--max);
+  margin: auto;
+  padding: 60px 24px 80px;
 }
+
 
 /* ------------------------------
    Hero Section
@@ -153,7 +151,7 @@ a:hover {
 --------------------------------- */
 
 .section {
-  margin-top: 55px;
+  margin-top: 0;
 }
 
 .section h2 {
@@ -223,6 +221,15 @@ a:hover {
   color: var(--muted);
   padding: 28px;
   font-size: 14px;
+}
+
+
+/* ------------------------------
+   About Page
+--------------------------------- */
+
+.about-container {
+  padding-top: 30px;
 }
 
 
